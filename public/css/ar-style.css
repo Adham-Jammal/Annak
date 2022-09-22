@@ -1,14 +1,314 @@
-@import url('http://fonts.cdnfonts.com/css/cairo');
-@font-face {
-    font-family: Arabic-font ;
-    src: url("/fonts/IBMPlexSansArabic-Bold.ttf");
-  }
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 *{
     direction: rtl;
-    font-family: 'Arabic-font', sans-serif;
-   }
+    font-family: 'Tajawal', sans-serif;
+}
+.hero{
+    position: relative;
+    padding: 50px;
+}
+.hero .image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .image-content img{
+    width: 175%;
+}
+.hero .text-content .url{
+    color: #8B8B8B;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.hero .text-content .main-color{
+    color: var(--main-color);
+}
+.hero .text-content h1{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.hero .text-content p{
+    margin-top: 30px;
+    color: var(--dark-color);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.hero .text-content .download{
+    margin-top: 30px;
+}
+.hero .text-content .download img{
+    width: 300px;
+    margin: 5px 0;
+}
+.hero .shadow{
+    position: absolute;
+    right: -310px;
+    top: -150px;
+}
+/* Discover */
+.discover{
+    position: relative;
+    margin-top:  -100px;
+}
+.discover .image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discover .image-content img{
+    width: 100%;
+}
+.discover .text-content h2{
+    position: relative;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.discover .text-content h2::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: var(--main-color);
+    bottom: -10px;
+    right: 0;
+}
+.discover .text-content span{
+    display: block;
+    margin: 40px 0 20px;
+    color: #8B8B8B;
+    font-size: 2rem;
+    font-weight: 500;
 
+}
+.discover .text-content p{
+    width: 87%;
+    text-align: justify;
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* VMG */
+.vmg{
+    position: relative;
+    padding: 75px 0;
+}
+.vmg .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.vmg .boxes .box{
+    width: 28%;
+}
+.vmg .boxes .box h2{
+    color: var(--black);
+    font-size: 3.5rem;
+}
+.vmg .boxes .box h2 img{
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.vmg .boxes .box hr{
+    height: 4px;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+}
+.vmg .boxes .box p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: var(--dark-color);
+}
+.vmg .boxes .box-1{
+    margin-top: 0;
+}
+.vmg .boxes .box-2{
+    margin-top: 30px;
+}
+.vmg .boxes .box-3{
+    margin-top: 60px;
+}
+/* advantages */
+.advantages{
+    padding: 75px 0;
+    position: relative;
+}
+.advantages .container{
+    background: #fff;
+    padding: 50px;
+    border-radius: 32px;
+}
+.advantages .image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advantages .image-content img{
+    width: 100%;
+}
+.advantages .text-content h2{
+    font-size: 3rem;
+}
+.advantages .text-content h2 .main-color{
+    color: var(--main-color);
+}
+.advantages .text-content ol{
+    list-style: none;
+    counter-reset: item;
+}
+.advantages .text-content li{
+    position: relative;
+    font-size: 2rem;
+    color: var(--black);
+    counter-increment: item;
+    margin: 20px 0;
+    font-weight: 500;
+
+}
+.advantages .text-content li:after{
+    content: '';
+    background-color: #fc7b934d;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    /* z-index: -1; */
+  }
+.advantages .text-content li:before {
+    counter-increment: li;
+    content: counter(item, decimal-leading-zero);
+    margin-right: 10px;
+    color: var(--main-color);
+    font-size: 3.2rem;
+    margin-left: 20px;
+  }
+  .company-advantages .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Values */
+  .values{
+    position: relative;
+    padding: 75px 0;
+  }
+  .values .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .values .boxes .box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 150px;
+    border-radius: 12px;
+    background-color: var(--main-color);
+  }
+  .values .boxes .box h3{
+    font-size: 3rem;
+    color: var(--white);
+  }
+  .values .boxes .box span{
+    color: var(--white);
+    position: absolute;
+    background-color: var(--main-color);
+    border: 6px solid #E5E5E5;
+    left: 15px;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 3.4rem;
+    font-weight: 800;
+  }
+  /* APP */
+  .app{
+    position: relative;
+    padding: 75px 0;
+  }
+  .app h2{
+    font-size: 3.2rem;
+    color: var(--black);
+    text-align: center;
+  }
+  .app p{
+    font-size: 2.4rem;
+    color: #8B8B8B;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .app .owl-item img{
+    width: 100%;
+  }
+  /* contact us */
+  .contact-us{
+    position: relative;
+    padding: 75px 0;
+  }
+  .contact-us .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-us .container{
+    padding: 75px 0;
+    background: url(/img/contact-background.png);
+    border-radius: 32px;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  .contact-us form{
+    width: 80%;
+    padding: 35px 25px;
+    background-color: #fff;
+    border-radius: 32px;
+  }
+  .contact-us form h3{
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .contact-us form label{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    display: block;
+    margin-bottom: 5px;
+  }
+  .contact-us form input{
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 15px 0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  .contact-us form textarea{
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 10px 0;
+    border-radius: 4px;
+    height: 100px;
+  }
+  .contact-us form input[type="submit"]{
+    background-color: #D81E41;
+    color: var(--white);
+    width: 60%;
+    display: block;
+    margin: 20px auto 0;
+  }
 /* Responsive */
 @media (min-width:1200px){
 

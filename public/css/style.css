@@ -43,6 +43,7 @@ html::-webkit-scrollbar-thumb{
     background:var(--main-color);
 }
 body{
+    background-color: #E5E5E5;
     overflow-x: hidden;
     background-position: center;
     background-size: contain;

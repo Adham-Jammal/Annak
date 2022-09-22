@@ -35,3 +35,42 @@ scrollTopButton.onclick = function () {
     });
 };
 
+$(".preview-carousel").owlCarousel({
+    margin : 10,
+    loop: true,
+    rtl : true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 6000,
+    dots: false,
+    smartSpeed: 1000,
+    lazyLoad: true,
+    center: true,
+    responsive:{
+        400:{
+            items:1,
+        },
+        768:{
+            items:5,
+        },
+    }
+
+  });
+
+
+
+var swiper = new Swiper(".swiper-container", {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    effect: 'coverflow',
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflow: {
+        rotate: 0,
+        stretch: 100,
+        depth: 150,
+        modifier: 1.5,
+        slideShadows : false,
+    }
+});
