@@ -4,19 +4,18 @@
 @stop
 @section('main')
 {{-- Hero --}}
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-content">
                     <a class="url" href="ank.sa.com">ank.sa.com</a>
                     <h1>
                         <span class="main-color">عنّك</span>
-                        <br>
                         خطوة نحول
                         <span class="main-color">التسهيــــل</span>
                     </h1>
                     <p>
-                        خطوة نحو المستقبل حالمون، مبتكرون، لأجل الغد عاملــــــــــــون. صفات بسيطة تروي مسيرة طموح وفكر من أجل بناء مستقبل رقمي مبهر وذلك من خلال ابتكار منصة لتكون بوابة التســـــــــــــوق الالكتروني الأولى من نوعها في المملكة العربية السعوديــــــــــــــــة. توفر وتجمع كافة الماركات العالميـــــة في مكــــان واحد ومن خلال منصة واحدة قام عليها فريق سعودي بداية ً من مرحلـــــــة الفكرة وصولا إلى! مرحلة التسويـــق... خطـــــــــــــوة نحـــــــــــو التسهيــــــــــــل
+                        "سندك اللي يشيل عنّك عناء التسوق، أول وأرهب تطبيق سعودي يجمع لك كل البراندات في مكان واحد "
                     </p>
                     <div class="download">
                         <img src="{{asset('img/apple-store.png')}}" alt="apple-store">
@@ -34,32 +33,38 @@
         </div>
         <img src="{{asset('img/pink-shadow.png')}}" class="shadow" alt="" >
     </section>
-    <Section class="discover">
+    <Section class="discover" id="why_us">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 image-content">
+                    <img src="{{asset('img/question-mark-icon-1.png')}}" class="question-1" alt="question-mark">
                     <img src="{{asset('img/discover-image.png')}}" alt="Discover-Annak">
                 </div>
                 <div class="col-md-8 text-content">
                     <h2>لنكتشف معاً لماذا تم اختيار اسم المنصة "عنـّـك؟</h2>
                     <span>فـي مرحلة الفكرة تساءلنا مــــــــاذا سيكون دورنا لشــــــركائنا العملاء والشركــــــات؟</span>
                     <p>وكانت الإجابـة: النيابة عن شركائنا الأفراد التسوق، النيابة عن شركائنا الشركات فـي التسويق وزايدة المبيعات وخدمــــة عملائهــــم. فلذلك تم إختيار اســم "عنـّـك" لأنك ستدعنــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــا نقوم بكـــــــــــــــــــــل ذلـــــــــــــك عنـــــــــــــــــــــــــــــــــــك</p>
+                    <img src="{{asset('img/question-mark-icon-2.png')}}" class="question-2" alt="question-mark">
                 </div>
             </div>
         </div>
+        <img src="{{asset('img/dots.png')}}" class="dots" alt="Dots">
+        <img src="{{asset('img/arrow.png')}}" class="arrow" alt="Arrow">
+
+
     </Section>
-    <section class="vmg">
+    <section class="vmg" id="our_visions">
         <div class="container">
             <div class="boxes">
                 <div class="box box-1">
                     <h2>رؤية المنصة<img src="{{asset('img/vision-icon.png')}}" alt="vision"></h2>
                     <hr>
-                    <p>نسعى أن نخلق منصـة الكترونية تسهــــل على شركائنا الأفراد تجربـــــــة التسوق مما يســـاهم زايدة مبيعات شركائنا الشركــــات</p>
+                    <p>تكمن رؤيتنا لتطبيق عنّك في مواكبة التحول التقني لنقلة نوعية لمفهوم التسوق.</p>
                 </div>
                 <div class="box box-2">
                     <h2> رسالة المنصة<img src="{{asset('img/message-icon.png')}}" alt="message"></h2>
                     <hr>
-                    <p> تكمـــــــــــن رسالتنــــــــــــــــــــــا مواكبـــــــــــــــة التحول التقــنــــــــــي الـــــــــذي يقوده ولي عهدنا الملهم من خلال رؤيـــــــــــــــــــــــــــــة عــــــــــــــــــــــــــــــــــــام 2030</p>
+                    <p>نسعى أن نخلص منصة إلكترونية تسهل على شركائنا الأفراد تجربة التسوق. مما يساهم في زيادة مبيعات شركائنا الشركات.</p>
                 </div>
                 <div class="box box-3">
                     <h2>أهداف المنصة<img src="{{asset('img/goals-icon.png')}}" alt="goals"></h2>
@@ -68,8 +73,11 @@
                 </div>
             </div>
         </div>
+        <img src="{{asset('img/pink-shadow.png')}}" class="shadow" alt="shadow">
+        <img src="{{asset('img/illustration.png')}}" class="illustration" alt="illustration">
+
     </section>
-    <section class="advantages">
+    <section class="advantages" id="goals">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-content">
@@ -89,8 +97,9 @@
             </div>
         </div>
     </section>
-    <section class="values">
+    <section class="values" id="values">
         <div class="container">
+            <h2>قيم المنصة</h2>
             <div class="boxes">
                 <div class="box">
                     <h3>السرعة</h3>
@@ -106,8 +115,9 @@
                 </div>
             </div>
         </div>
+        <img src="{{asset('img/pink-shadow.png')}}" class="shadow" alt="shadow">
     </section>
-    <section class="advantages company-advantages">
+    <section class="advantages company-advantages" id="advantages">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 image-content">
@@ -130,7 +140,7 @@
         </div>
     </section>
     <section class="app">
-        <div class="container">
+        <div class="container-fluid">
             <h2>التطبيق الذي تحتاج إليه! </h2>
             <p>جانب من التصميم الداخلي للتطبيق</p>
             <div class="slider" data-aos="zoom-in" data-aos-duration="1000">
@@ -150,11 +160,52 @@
                     <div class="slide">
                         <img src="{{ asset('/img/slider-5.png') }}" alt="">
                     </div>
+
+
+                    <div class="slide">
+                        <img src="{{ asset('/img/slider-1.png') }}" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="{{ asset('/img/slider-2.png') }}" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="{{ asset('/img/slider-3.png') }}" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="{{ asset('/img/slider-4.png') }}" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="{{ asset('/img/slider-5.png') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact-us">
+    <section class="contact-us contact-us-1" id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 form">
+                    <form action="#">
+                        <h3>التسجيل كشريك</h3>
+                        <label for="company_name">اسم الشركة</label>
+                        <input type="text" id="company_name" name="company_name" required>
+                        <label for="store_name">اسم المتجر</label>
+                        <input type="text" id="store_name" name="store_name" required>
+                        <label for="cr">رقم السجل التجاري</label>
+                        <input type="number" id="cr" name="cr" required>
+                        <label for="phone_number">رقم الجوال</label>
+                        <input type="number" id="phone_number" name="phone_number" required>
+                        <label for="partner_mail">الايميل</label>
+                        <input type="email" id="partner_mail" name="partner_mail" required>
+                        <label for="position">المنصب</label>
+                        <input type="text" id="position" name="position" required>
+                        <input type="submit" id="submit" value="إرسال">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us contact-us-2" id="contact_us">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 form">
@@ -171,5 +222,6 @@
                 </div>
             </div>
         </div>
+        <img src="{{asset('img/pink-shadow.png')}}" class="shadow" alt="shadow">
     </section>
 @stop

@@ -39,11 +39,15 @@
                 <div class="col-md-3 footer-col chr-logo">
                     <div class="content">
                         <img src="{{asset('img/chr-logo.png')}}" alt="logo">
+                        <h3>المملكة العربية السعودية , الرياض ,
+                            مجمع غرينادا للأعمال
+                        </h3>
                         <div class="social-media">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -51,8 +55,8 @@
                     <div class="content">
                     <h4>بوابة التسوق الالكتروني الأولى من نوعها في المملكة العربية السعودية.</h4>
                     <h5>معلومات التواصل:</h5>
-                    <a href="mailto:Mohammed.z9@outlook.com">Mohammed.z9@outlook.com</a>
-                    <a href="tel:+966502200037">0502200037</a>
+                    <a href="mailto:Info@Ank-app.as">Info@Ank-app.as</a>
+                    <a href="tel:0115118005">0115118005</a>
                     </div>
 
                 </div>

@@ -5,7 +5,11 @@ footer{
 }
 footer .chr-logo img{
     width: 100%;
-    margin-bottom: 25px;
+}
+footer .chr-logo h3{
+    text-align: center;
+    color: var(--white);
+    margin: 5px 0;
 }
 footer .chr-logo .social-media{
     display: flex;

@@ -42,7 +42,7 @@ $(".preview-carousel").owlCarousel({
     autoplay: true,
     autoplaySpeed: 1000,
     autoplayTimeout: 6000,
-    dots: false,
+    dots: true,
     smartSpeed: 1000,
     lazyLoad: true,
     center: true,
