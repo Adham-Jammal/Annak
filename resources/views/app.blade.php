@@ -26,8 +26,13 @@
 </head>
 
 <body>
-    <div id="preloader"></div>
-    <button id="scroll_top"><i class="bi bi-chevron-up"></i></button>
+    <div class="preloaderBg" id="preloader" onload="preloader()">
+        <div class="preloaders-container">
+            <div class="preloader app-logo"></div>
+            <div class="preloader2"></div>
+        </div>
+      </div>
+      <button id="scroll_top"><i class="bi bi-chevron-up"></i></button>
     {{-- <button id="scroll_top"><i class="bi bi-chevron-up"></i></button> --}}
     @include('layouts.header')
 

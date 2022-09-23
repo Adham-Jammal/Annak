@@ -1,13 +1,15 @@
 let preloader = document.getElementById("preloader");
 if (preloader) {
     window.addEventListener("load", () => {
-        preloader.remove();
-    });
+        preloader.style.transition = '.5s';
+        preloader.style.opacity = '0';
+        preloader.style.visibility = 'hidden';
+        });
 }
 
 window.addEventListener("load", () => {
     x = document.querySelectorAll('.links a')
-    for( let i = 1 ; i < x.length  ; i++){
+    for( let i = 0 ; i < x.length  ; i++){
         x[i].addEventListener('click' , () => {
             document.querySelector('.burger').click()
         })
@@ -47,7 +49,7 @@ $(".preview-carousel").owlCarousel({
     lazyLoad: true,
     center: true,
     responsive:{
-        400:{
+        0:{
             items:1,
         },
         768:{

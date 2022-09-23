@@ -34,6 +34,7 @@
     font-size: 5.5rem;
 }
 .hero .text-content p{
+    width: 99%;
     margin-top: 30px;
     color: var(--dark-color);
     font-size: 2rem;
@@ -56,7 +57,7 @@
 /* Discover */
 .discover{
     position: relative;
-    padding: 25px 0 75px;
+    padding: 50px 0 75px;
     margin-top:  -100px;
 }
 .discover .image-content{
@@ -352,6 +353,9 @@
     background-color: var(--main-color);
     width: 200%;
   }
+  .owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: 50px;
+}
   /* contact us */
   .contact-us{
     position: relative;
@@ -393,7 +397,7 @@
   .contact-us form input{
     width: 100%;
     border: 1px solid #C4C4C4;
-    padding: 15px 0;
+    padding: 15px 10px;
     border-radius: 4px;
     margin-bottom: 20px;
   }
@@ -410,6 +414,10 @@
     width: 60%;
     display: block;
     margin: 20px auto 0;
+  }
+  .contact-us form input[type="submit"]:hover{
+    background-color: var(--dark-color);
+
   }
   .contact-us .shadow{
     position: absolute;
@@ -429,10 +437,25 @@
 }
 /* ************* */
 @media (max-width:991px){
-
+    .discover .arrow{
+        left: 90px;
+    }
+    .vmg .boxes .box{
+        width: 30%;
+    }
+    .vmg .boxes .box h2{
+        font-size: 3rem;
+    }
+    .vmg .boxes .box h2 img{
+        width: 25px;
+    }
 }
 /* ************* */
 @media (max-width:768px){
+    .hero .text-content .url{
+        display: block;
+        margin-bottom: 20px;
+    }
     .hero .image-content img,.discover .text-content .question-2,
     .discover .arrow{
         display: none;
@@ -443,7 +466,7 @@
     .discover .row , .company-advantages .row {
         flex-direction: column-reverse;
     }
-    .vmg , .values{
+    .vmg , .values ,.contact-us ,.advantages{
         padding: 25px 0;
     }
     .vmg .boxes , .values .boxes{
@@ -460,6 +483,8 @@
     .contact-us form{
         width: 90%;
     }
+
+
 }
 /* ************* */
 @media (max-width:500px){

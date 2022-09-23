@@ -17,7 +17,7 @@ $lang2 =  LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar';
         <div class="content">
         <ul class="links">
             <li> <a href="#hero">نبذة عن المنصة</a> </li>
-            <li> <a href="#why_us"> لماذا عنّك</a></li>
+            <li> <a href="#why_us"> لماذا عنّك؟</a></li>
             <li> <a href="#our_visions">رؤيتنا ورسالتنا</a></li>
             <li> <a href="#goals"> أهداف المنصة</a></li>
             <li> <a href="#values"> قيم المنصة</a></li>

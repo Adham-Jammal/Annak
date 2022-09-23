@@ -9,23 +9,23 @@
             <div class="row">
                 <div class="col-md-6 text-content">
                     <a class="url" href="http://ank-app.sa/">ank-app.sa</a>
-                    <h1>
+                    <h1 data-aos="fade-in" data-aos-duration="1000">
                         <span class="main-color">عنّك</span>
                         خطوة نحول
                         <span class="main-color">التسهيــــل</span>
                     </h1>
-                    <p>
+                    <p data-aos="fade-in" data-aos-duration="1000">
                         "سندك اللي يشيل عنّك عناء التسوق، أول وأرهب تطبيق سعودي يجمع لك كل البراندات في مكان واحد "
                     </p>
                     <div class="download">
-                        <a href="https://apps.apple.com/lb/app/ank-client/id1637172167"><img src="{{asset('img/apple-store.png')}}" alt="apple-store"></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.rightaccess.ank.client"><img src="{{asset('img/google-play.png')}}" alt="google-play"></a>
+                        <a href="https://apps.apple.com/lb/app/ank-client/id1637172167" ><img src="{{asset('img/apple-store.png')}}" alt="apple-store" data-aos="fade-up" data-aos-duration="1000"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.rightaccess.ank.client"><img src="{{asset('img/google-play.png')}}" alt="google-play" data-aos="fade-up" data-aos-duration="1250"></a>
                     </div>
 
 
 
                 </div>
-                <div class="col-md-6 image-content">
+                <div class="col-md-6 image-content" data-aos="fade-right" data-aos-duration="1000">
                     <img src="{{asset('img/hero-image.png')}}" alt="Annak">
                 </div>
 
@@ -36,11 +36,11 @@
     <Section class="discover" id="why_us">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 image-content">
+                <div class="col-md-4 image-content" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{asset('img/question-mark-icon-1.png')}}" class="question-1" alt="question-mark">
                     <img src="{{asset('img/discover-image.png')}}" alt="Discover-Annak">
                 </div>
-                <div class="col-md-8 text-content">
+                <div class="col-md-8 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h2>لنكتشف معاًعن تطبيق "عنـّـك؟</h2>
                     <span>فـي مرحلة الفكرة تساءلنا مــــــــاذا سيكون دورنا لشــــــركائنا العملاء والشركــــــات؟</span>
                     <p>وكانت الإجابـة: النيابة عن شركائنا الأفراد التسوق، النيابة عن شركائنا الشركات فـي التسويق وزايدة المبيعات وخدمــــة عملائهــــم. فلذلك تم إختيار اســم "عنـّـك" لأنك ستدعنــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــا نقوم بكـــــــــــــــــــــل ذلـــــــــــــك عنـــــــــــــــــــــــــــــــــــك</p>
@@ -48,25 +48,25 @@
                 </div>
             </div>
         </div>
-        <img src="{{asset('img/dots.png')}}" class="dots" alt="Dots">
-        <img src="{{asset('img/arrow.png')}}" class="arrow" alt="Arrow">
+        <img src="{{asset('img/dots.png')}}" class="dots" alt="Dots" data-aos="fade-right" data-aos-duration="1500">
+        <img src="{{asset('img/arrow.png')}}" class="arrow" alt="Arrow" data-aos="fade-down-right" data-aos-duration="1500" >
 
 
     </Section>
     <section class="vmg" id="our_visions">
         <div class="container">
             <div class="boxes">
-                <div class="box box-1">
+                <div class="box box-1" data-aos="fade-up" data-aos-duration="1000">
                     <h2>رؤية المنصة<img src="{{asset('img/vision-icon.png')}}" alt="vision"></h2>
                     <hr>
-                    <p>تكمن رؤيتنا لتطبيق عنّك في مواكبة التحول التقني لنقلة نوعية لمفهوم التسوق.</p>
+                    <p>تكمن رؤيتنا لتطبيق عنّك في مواكبة التحول التقني لنقلة نوعية لمفهوم التسوق</p>
                 </div>
-                <div class="box box-2">
+                <div class="box box-2" data-aos="fade-up" data-aos-duration="1250">
                     <h2> رسالة المنصة<img src="{{asset('img/message-icon.png')}}" alt="message"></h2>
                     <hr>
-                    <p>نسعى أن نخلص منصة إلكترونية تسهل على شركائنا الأفراد تجربة التسوق. مما يساهم في زيادة مبيعات شركائنا الشركات.</p>
+                    <p>نسعى أن نخلص منصة إلكترونية تسهل على شركائنا الأفراد تجربة التسوق. مما يساهم في زيادة مبيعات شركائنا الشركات</p>
                 </div>
-                <div class="box box-3">
+                <div class="box box-3" data-aos="fade-up" data-aos-duration="1500">
                     <h2>أهداف المنصة<img src="{{asset('img/goals-icon.png')}}" alt="goals"></h2>
                     <hr>
                     <p>التسهيــــــل على العميـــــل تجربــــــة التسوق وزيادة مبيعـات الشركات ومواكبــــــــــــــــــــــة التحوّل الرقمــــــــــــي</p>
@@ -77,7 +77,7 @@
         <img src="{{asset('img/illustration.png')}}" class="illustration" alt="illustration">
 
     </section>
-    <section class="advantages" id="goals">
+    <section class="advantages" id="goals" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-content">
@@ -101,15 +101,15 @@
         <div class="container">
             <h2>قيم المنصة</h2>
             <div class="boxes">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000">
                     <h3>السرعة</h3>
                     <span>1</span>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1250">
                     <h3>السهولة</h3>
                     <span>2</span>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500">
                     <h3>التفرد</h3>
                     <span>3</span>
                 </div>
@@ -117,7 +117,7 @@
         </div>
         <img src="{{asset('img/pink-shadow.png')}}" class="shadow" alt="shadow">
     </section>
-    <section class="advantages company-advantages" id="advantages">
+    <section class="advantages company-advantages" id="advantages" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 image-content">
@@ -181,10 +181,10 @@
             </div>
         </div>
     </section>
-    <section class="contact-us contact-us-1" id="contact_us">
+    <section class="contact-us contact-us-1" id="contact_us" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 form">
+                <div class="col-12 col-lg-6 form">
                     <form action="#">
                         <h3>التسجيل كشريك</h3>
                         <label for="company_name">اسم الشركة</label>
@@ -199,16 +199,16 @@
                         <input type="email" id="partner_mail" name="partner_mail" required>
                         <label for="position">المنصب</label>
                         <input type="text" id="position" name="position" required>
-                        <input type="submit" id="submit" value="إرسال">
+                        <input type="submit" id="submit" value="انضم لنا">
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact-us contact-us-2" id="contact_us">
+    <section class="contact-us contact-us-2" id="contact_us" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 form">
+                <div class="col-12 col-lg-6 form">
                     <form action="#">
                         <h3>دعنا نتكلم!</h3>
                         <label for="name">الاسم الكامل</label>
