@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-content">
-                    <a class="url" href="http://ank-app.sa/">ank-app.sa</a>
+                    {{-- <a class="url" href="http://ank-app.sa/">ank-app.sa</a> --}}
                     <h1 data-aos="fade-in" data-aos-duration="1000">
                         <span class="main-color">عنّك</span>
                         خطوة نحول
@@ -18,15 +18,15 @@
                         "سندك اللي يشيل عنّك عناء التسوق، أول وأرهب تطبيق سعودي يجمع لك كل البراندات في مكان واحد "
                     </p>
                     <div class="download">
-                        <a href="https://apps.apple.com/lb/app/ank-client/id1637172167" ><img src="{{asset('img/apple-store.png')}}" alt="apple-store" data-aos="fade-up" data-aos-duration="1000"></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.rightaccess.ank.client"><img src="{{asset('img/google-play.png')}}" alt="google-play" data-aos="fade-up" data-aos-duration="1250"></a>
+                        <a href="https://apps.apple.com/lb/app/ank-client/id1637172167" ><img src="{{asset('img/apple-store.png')}}" alt="apple-store"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.rightaccess.ank.client"><img src="{{asset('img/google-play.png')}}" alt="google-play"></a>
                     </div>
 
 
 
                 </div>
                 <div class="col-md-6 image-content" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{asset('img/hero-image.png')}}" alt="Annak">
+                    <img src="{{asset('img/hero-image.png')}}" alt="Anak">
                 </div>
 
             </div>
@@ -38,10 +38,10 @@
             <div class="row">
                 <div class="col-md-4 image-content" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{asset('img/question-mark-icon-1.png')}}" class="question-1" alt="question-mark">
-                    <img src="{{asset('img/discover-image.png')}}" alt="Discover-Annak">
+                    <img src="{{asset('img/discover-image.png')}}" alt="Discover-Anak">
                 </div>
                 <div class="col-md-8 text-content" data-aos="fade-right" data-aos-duration="1000">
-                    <h2>لنكتشف معاًعن تطبيق "عنـّـك؟</h2>
+                    <h2>لنكتشف معاً عن تطبيق "عنّــك"؟</h2>
                     <span>فـي مرحلة الفكرة تساءلنا مــــــــاذا سيكون دورنا لشــــــركائنا العملاء والشركــــــات؟</span>
                     <p>وكانت الإجابـة: النيابة عن شركائنا الأفراد التسوق، النيابة عن شركائنا الشركات فـي التسويق وزايدة المبيعات وخدمــــة عملائهــــم. فلذلك تم إختيار اســم "عنـّـك" لأنك ستدعنــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــا نقوم بكـــــــــــــــــــــل ذلـــــــــــــك عنـــــــــــــــــــــــــــــــــــك</p>
                     <img src="{{asset('img/question-mark-icon-2.png')}}" class="question-2" alt="question-mark">
@@ -217,7 +217,7 @@
                         <input type="email" id="email" name="email" required>
                         <label for="name">رسالتك</label>
                         <textarea name="message" id="message" required ></textarea>
-                        <input type="submit" id="submit" value="إرسال">
+                        <input type="submit" id="send" value="إرسال">
                     </form>
                 </div>
             </div>

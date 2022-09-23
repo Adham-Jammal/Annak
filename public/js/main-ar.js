@@ -48,6 +48,7 @@ $(".preview-carousel").owlCarousel({
     smartSpeed: 1000,
     lazyLoad: true,
     center: true,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1,
@@ -56,6 +57,21 @@ $(".preview-carousel").owlCarousel({
             items:5,
         },
     }
-
   });
+// MAil
+let sendBtn = document.getElementById("send")
+sendBtn.addEventListener("click" , (e) =>{
+    e.preventDefault();
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "sms@ank-app.sa",
+        Password : "27C139715F3B8A039C12A81124368171F5E7",
+        To : "sms@ank-app.sa",
+        From : "sms@ank-app.sa",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+})
 

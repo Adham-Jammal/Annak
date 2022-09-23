@@ -221,6 +221,11 @@
   @media screen and (max-width: 1020px){
     .wrapper{
       background: transparent ;
+      position: fixed;
+      background: linear-gradient(270deg, rgba(228,209,213,1) 45%, rgba(255,255,255,1) 245%);
+    }
+    .hero .text-content h1{
+        margin-top: 100px;
     }
     .wrapper nav{
         background-color: transparent;

@@ -483,6 +483,9 @@
     .contact-us form{
         width: 90%;
     }
+    .discover .text-content p{
+        width: 80%;
+    }
 
 
 }
