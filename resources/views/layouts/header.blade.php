@@ -25,9 +25,9 @@ $lang2 =  LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar';
             <li> <a href="#contact_us"> اتصل بنا</a></li>
         </ul>
       </div>
-      <div>
+      {{-- <div>
             <a  id="join_us" href="#">انضم إلينا</a>
-      </div>
+      </div> --}}
     </nav>
 </header>
 

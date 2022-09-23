@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-content">
-                    <a class="url" href="ank.sa.com">ank.sa.com</a>
+                    <a class="url" href="http://ank-app.sa/">ank-app.sa</a>
                     <h1>
                         <span class="main-color">عنّك</span>
                         خطوة نحول
@@ -18,8 +18,8 @@
                         "سندك اللي يشيل عنّك عناء التسوق، أول وأرهب تطبيق سعودي يجمع لك كل البراندات في مكان واحد "
                     </p>
                     <div class="download">
-                        <img src="{{asset('img/apple-store.png')}}" alt="apple-store">
-                        <img src="{{asset('img/google-play.png')}}" alt="google-play">
+                        <a href="https://apps.apple.com/lb/app/ank-client/id1637172167"><img src="{{asset('img/apple-store.png')}}" alt="apple-store"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.rightaccess.ank.client"><img src="{{asset('img/google-play.png')}}" alt="google-play"></a>
                     </div>
 
 
@@ -41,7 +41,7 @@
                     <img src="{{asset('img/discover-image.png')}}" alt="Discover-Annak">
                 </div>
                 <div class="col-md-8 text-content">
-                    <h2>لنكتشف معاً لماذا تم اختيار اسم المنصة "عنـّـك؟</h2>
+                    <h2>لنكتشف معاًعن تطبيق "عنـّـك؟</h2>
                     <span>فـي مرحلة الفكرة تساءلنا مــــــــاذا سيكون دورنا لشــــــركائنا العملاء والشركــــــات؟</span>
                     <p>وكانت الإجابـة: النيابة عن شركائنا الأفراد التسوق، النيابة عن شركائنا الشركات فـي التسويق وزايدة المبيعات وخدمــــة عملائهــــم. فلذلك تم إختيار اســم "عنـّـك" لأنك ستدعنــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــا نقوم بكـــــــــــــــــــــل ذلـــــــــــــك عنـــــــــــــــــــــــــــــــــــك</p>
                     <img src="{{asset('img/question-mark-icon-2.png')}}" class="question-2" alt="question-mark">

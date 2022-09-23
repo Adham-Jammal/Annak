@@ -220,7 +220,7 @@
 
   @media screen and (max-width: 1020px){
     .wrapper{
-      background: #fff ;
+      background: transparent ;
     }
     .wrapper nav{
         background-color: transparent;
@@ -237,7 +237,7 @@
         justify-content: space-between;
         }
         .wrapper .menu-icon img{
-            width: 100px;
+            width: 60px;
             position: relative;
             top: 10px;
           }
@@ -256,10 +256,11 @@
     nav .content .links{
       display: block;
       position: fixed;
-      background: #ffffffe0;
+      background: rgb(228,209,213);
+      background: linear-gradient(270deg, rgba(228,209,213,1) 45%, rgba(255,255,255,1) 245%);
       height: 100%;
       width: 100%;
-      top: 70px;
+      top: 110px;
       right: -100%;
       margin-right: 0;
       padding: 0;
@@ -268,8 +269,6 @@
       transition: all 0.3s ease;
     }
     nav #show-menu:checked ~ .content .links{
-      background: url(/img/background.png);
-      background-color: #fff;
       right: 0%;
       z-index: 3;
     }

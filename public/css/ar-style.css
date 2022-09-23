@@ -364,7 +364,7 @@
   }
   .contact-us .container{
     padding: 75px 0;
-    background: url(/img/contact-background.png);
+    background: url(../img/contact-background.png);
     border-radius: 32px;
     background-position: center;
     background-size: 100% 100%;
@@ -433,14 +433,32 @@
 }
 /* ************* */
 @media (max-width:768px){
-    .hero .image-content img{
+    .hero .image-content img,.discover .text-content .question-2,
+    .discover .arrow{
         display: none;
     }
     .discover{
         margin-top: 0;
     }
-    .discover .row{
+    .discover .row , .company-advantages .row {
         flex-direction: column-reverse;
+    }
+    .vmg , .values{
+        padding: 25px 0;
+    }
+    .vmg .boxes , .values .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .vmg .boxes .box , .values .boxes .box{
+        margin: 25px 0;
+        width: 75%;
+    }
+    .values h2{
+        margin-bottom: 25px;
+    }
+    .contact-us form{
+        width: 90%;
     }
 }
 /* ************* */

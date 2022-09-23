@@ -70,3 +70,22 @@ footer .footer-col{
     align-items: baseline;
     justify-content: center;
 }
+@media (max-width:767px){
+    footer{
+        padding: 25px 0;
+    }
+    footer .footer-col{
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    footer .chr-logo .social-media{
+        justify-content: flex-start;
+    }
+    footer .chr-logo h3{
+        margin: 15px 0 20px;
+    }
+    footer .logo{
+        display: none;
+    }
+
+}
